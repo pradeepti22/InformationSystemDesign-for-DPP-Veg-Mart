@@ -1,0 +1,17 @@
+## Executive Summary
+DPP Veg Mart is an eminent name in Maharashtra, India. Their business centers include a Central Hub (CH) which is the heart of all their business processes and 
+Sub Center Hubs (SCHs) that work closely with CH and the consumers. Currently, DPP is using physical journals for orders and maintain paper invoices. DPP is facing 
+  difficulties in accessing past records of business and customer data as all those records were on paper. As there is no IT infrastructure, they do not have a digital 
+  backup of any user data, business data, invoices, inventories, etc. Customers must come in to the store or call to look for and purchase products. There is no way for
+  customers to get a digital real-time status of their order. They must either make a call or wait for a call from the store to know if the order is ready. 
+  The transportation system is also managed manually with paper invoices and phone calls to vendors leading to a lot of issues in coordination. Therefore, the company 
+  wishes to bring their business online.
+The purpose of this project is to analyze and design an information system for DPP to help them better conduct their business. The new system is designed to manage all 
+the DPP information at one place and enhance the user experience. The website would be a one-stop shop for users to search products, buy products, make payment, track 
+orders and report concerns. The system would also manage information like user personal details, user login information, favorite products, products on sale, new products, 
+best sellers, etc. As this is a system being built from the scratch, we did not have to consider issues like system integration and legacy data.  
+We have conducted the project through all the steps of the planning, analysis and design phases (Deliverable one, two and three respectively) to conclude that the system 
+could be implemented. The project report consists of all the essential details to understand the existing (as-is) DPP System and detailed planning, analysis and design
+guidelines for the new (to-be) system.
+The outcomes of deliverable one, two and three (System Request, System Proposal and System specification respectively) give a detailed picture about the old and new
+systems and how to go about implementing the new system. 
