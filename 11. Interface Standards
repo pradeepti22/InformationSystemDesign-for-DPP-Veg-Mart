@@ -1,0 +1,28 @@
+## 11.Interface Standards
+Interface Standards
+Interface Metaphor: The DPP Website
+Interface Objects:
+●	User: Users are the customers looking for products in the website or the employees working on the site. 
+●	Account: A place where user can add/edit their personal information, a preferred payment method, addresses, etc.
+●	Product: All the items for sale on the site like seasonal fruits, vegetables, etc.
+●	Vendor: The person or group who supplied DPP the products to be sold.
+●	Wish list: Users may save the products they prefer to a personal list.
+●	Shopping cart: The place to store the products till they are purchased.
+●	Category: To make it easier for the customer, products are listed in groups called categories.
+●	Available Products: Display the available products pertaining to the search criterion of the user. 
+●	Search Bar: It helps the user to find the desired vegetables and fruits.
+Interface Actions:
+●	Log In: Sign into the user account with the help of a username and a password.
+●	Manage Account: Add/ edit details like account information, personal information, order details, payment method, recover account, add products to wish list, etc.
+●	Edit: Make changes to the user information pertaining to his/her account.
+●	Search for: Display the products matching search criterion specified by the user.
+●	Contact: Display the contact information of DPP Veg Mart.
+●	Purchase: Buy the selected products from the site.
+●	Report: Inform DPP about any issues or grievance.  
+Interface Icons:
+●	DPP Mart Logo: The logo would be placed on top left corner of all the screens.
+●	Search: Icon will allow users to search for products. It would be present on top right corner of all the screens.
+●	Edit: A pencil shaped icon to make changes to an order.
+●	Favorite/ Wish list: Icon will be a heart placed next to all product. The user could click the icon and add a product to his/her wish list.
+●	Email: An envelope shaped icon to send emails.
+●	Social Media Logos: Links to social media apps like Facebook, Instagram, WhatsApp etc., would be embedded in their respective logos. These would be available at the bottom right corner of the home screen.
