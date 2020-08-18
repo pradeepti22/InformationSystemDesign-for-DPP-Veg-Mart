@@ -1,0 +1,87 @@
+## 7	Requirements Definition Statement
+
+Functional Requirements
+
+1. Creation of a New User Account
+1.1	The system must provide access to new users to sign up online for a new account.
+1.2	The system must allow users to enter their information, including name, billing address, shipping address, credit card information, preferred payment options, preferred SCH locations, etc.
+1.3	The system must send confirmation emails to the email ID of the user once the account creation is successful.
+1.4	 Upon successful creation of user account, the system must store the account information immediately.
+
+2. Maintaining existing user accounts
+2.1	The system must store the order history of all accounts for a period of 1 year. 
+2.2	The system must enable users to access their account and edit their account information at any time. 
+2.3	In case of password change requests, the system must confirm over the email or mobile via a system generated OTP.
+2.4	The system must allow users to store products in wish lists.
+2.5	In case of deactivation of accounts, the system must perform a check through the official email ID and mobile number to ensure correctness. 
+2.6	Adding family members to an existing account should be enabled. 
+2.7	Users should be able to make referrals online.
+
+3	Browsing/ Searching for products 
+3.1	The system must include all products sorted in categories for easy browsing. 
+3.2	Each product should have the real-time stock projected along with the exact price for selected quantity.
+3.3	The system should provide product suggestions based on the user’s interests, previous orders, local favorites, best sellers, etc. 
+3.4	The system needs to inform users in case a selected item is out of stock.
+
+4.  Making a purchase / Payment
+4.1	 The system would allow users to select the products and proceed to check out. 
+4.2	  In the checkout process, the system will allow users to verify the order items, address, and payment method. 
+4.3	 The system would allow users to choose from various payment options like Net banking, Credit card, debit card and cash on delivery. 
+4.4	The system will allow users to use even a new credit card to make a purchase. (The card not present in the user profile already)
+4.5	The system will give an option to verify the order information one last time, before confirming. 
+4.6	The system will generate a unique transaction ID for the payment made and share the payment confirmation over email/mobile.
+4.7	The purchase and order details shall we available for users to check.
+
+5.   Tracking an Order
+5.1	The system must generate a unique tracking number for each and every order post successful order creation.
+5.2	The system must share the tracking number along with order confirmation to the user.
+5.3	The tracking number should lead to a shipment site (like UPS, FedEx, etc.) and provide accurate status, the location of the product.
+5.4	The user must receive notifications about the progress of the product shipment at every stage. The notifications must also include delays (If any).
+
+6.  Reporting user concerns
+6.1	  The user must be able to report any concerns like product quality, issues in delivery, customer service, etc., through an Issue ticket on the website.
+6.2	 Each Issue ticket should have information about the concern like order number, customer ID, contact details, Issue date, Issue type, etc.
+6.3	The customer service team should be notified about the ticket within 5 minutes of the issue creation. 
+6.4	The Issue ticket system needs to notify the user about the status of the issue from time to time. 
+6.5	The Issue needs to be recorded in the user history for future reference. 
+
+7. Order cancellation
+7.1	The system must allow users to edit/cancel the order before the order is shipped from DPP warehouse.
+7.2	Upon successful cancellation, the system must cross check the payment details and work with the bank on returning the money to the user’s bank account.
+7.3	A confirmation email to be sent once the cancellation process is completed.
+
+Nonfunctional Requirements
+
+1.	Operational Requirements 
+1.1	The system must have user Login/ Sign up options on the home screen.
+1.2	The system should be compatible with Android, Mac and another OS.
+1.3	The system should be able to run on browsers of PCs, Tablets, Mobiles, etc.
+1.4	The system should be able to connect to other hardware like printers.
+
+2. Performance Requirements
+2.1	The system should have a response time of not more than 3 seconds for every request.
+2.2	At any time, the system should be able to support the user traffic along with the employees logged in and operating on it. 
+2.3	The system should be able to handle heavy user traffic efficiently. 
+2.4	The system should be available 24x7 without glitches and bugs.
+2.5	The system updates and defect fixes should be done for an hour on every second Monday of the month. During this time of outage, the system should display a clear message to the users about the maintenance work going on. 
+2.6	The system should be able to complete a purchase order in less than 5 seconds. 
+
+
+3. Security Requirements 
+3.1	The system should be able to store all the business and customer information securely and prevent a hack of the information.
+3.2	The employees should not have access to sensitive user data.
+3.3	The user’s login, payment, credit card, and personal information should be kept secure.
+3.4	No employee can access another employee’s / user’s information and vice-versa.
+3.5	Only authorized personnel can perform changes to the system with appropriate approvals in place. 
+3.6	Only designated managers should be able to approve requests pertaining to the system
+3.7	The system should be able to redeem from viruses and other malware. 
+3.8	The firewall and other security measures must always be up and running. 
+
+
+4. Political/Cultural
+4.1	All the company policies must be in alignment with the Data Protection Law of India.
+4.2	The company policy of select vendors/brands for hardware purchase must be followed.
+4.3	All the system services must be in accordance with the laws and legislations of India. 
+
+
+
