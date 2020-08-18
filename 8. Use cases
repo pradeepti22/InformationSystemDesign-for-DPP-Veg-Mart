@@ -1,0 +1,74 @@
+## 8. Use cases
+Use case Name: Creation of a New user account	Use case ID: UC-1	  Priority: High
+Actor: The System user
+Brief Description: A new user has an option to create a user account on the website. This Use case describes the steps involved in creating a new user account. 
+Trigger: User decides to create a new account
+Type  ☒ External ☐ Temporal
+
+
+Preconditions:
+1.	The user must have access to the internet.
+2.	The user must have his/her basic details like name, billing address, shipping address, payment options, credit card/bank information.
+3.	The website must be online.
+4.	All the databases must be up to date and online.
+Normal Course:
+1.	The user specifies the desired user name.
+2.	The user specifies his/her address, email and mobile number.
+3.	The user specifies preferred payment methods and banking details. 
+4.	The user confirms the details.
+5.	The system performs a background check for correctness of the information provided and confims.
+6.	The account information is saved, a new account is created and confirmed.
+7.	The system sends a confirmation email to the specified email ID. 
+
+
+	Information for Steps
+        User Name
+        User address, email ID, mobile number
+        User Bank details
+
+        User confirmation
+       System confirmation 
+
+        New account confirmation
+ 
+       Confirmation Email 
+
+Alternative Course:
+The username selected is already taken by another user.
+1.	The user specifies a preferred user name. 
+2.	The system notifies the user that the said user name is already taken. 
+3.	The system provides suggestions for new user name based on the previous user inputs
+4.	The user either selects a name from the suggestions or creates a unique new username. 
+5.	The system successfully creates an account and sends a confirmation email to the email ID specified.
+The credit card/bank account details are incorrect
+1.	The user mentions his/her bank account information.
+2.	The system detects that the credit card /bank account information is incorrect.
+3.	The system notifies to provide accurate details.
+4.	The user corrects the information and proceeds with the new account creation request. 
+Postconditions:  
+The new user account is successfully created and updated in the database.
+Exceptions: None
+Summary Inputs 	Source	Outputs 	Destination
+User request for new account
+User Name
+User address, email ID, mobile number
+User Bank details
+
+User confirmation	System User
+
+System User
+System User
+
+System User
+
+System User	System confirmation
+
+New account confirmation
+
+Confirmation Email	System User
+
+
+System User
+
+
+System User
